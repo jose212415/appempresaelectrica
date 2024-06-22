@@ -1,0 +1,64 @@
+.Inicio {
+    display: flex;
+    height: 100vh;
+}
+
+.left-menu {
+    width: 200px;
+    background-color: #f7c65d;
+    padding: 10px;
+    height: 100vh; /* Make the left menu take the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+.left-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-menu li {
+    margin: 10px 0;
+    cursor: pointer;
+    color: #fff; 
+    font-size: 18px; 
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: #599edf;
+    transition: background-color 0.3s ease; 
+}
+
+.left-menu li.active,
+.left-menu li:hover {
+    background-color: #0084ff; /* Background color on hover or when active */
+}
+
+#logout {
+    margin: 10px 0;
+    cursor: pointer;
+    color: #fff; 
+    font-size: 18px; 
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: #df5959;
+    transition: background-color 0.3s ease;
+}
+
+#logout:hover {
+    background-color: #e70404; /* Background color on hover */
+}
+
+.home-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: auto;
+}
+
+.home-logo {
+    width: 350px;
+    height: auto;
+}
