@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "empresa-electrica-fc56b",
+    "emp": "empresa-electrica-fc56b",
+    "empresa-electrica": "empresa-electrica-87e38"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

@@ -1,0 +1,92 @@
+/* Ubicaciones.css */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-error {
+    border-color: red !important;
+}
+
+.input-success {
+    border-color: #ccc !important;
+}
+
+.error-message {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.modal-content button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009879;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #007b63;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.contadores-table-container {
+    margin: 20px;
+}
+
+.contadores-actions {
+    margin-bottom: 20px;
+}
+
+.contadores-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contadores-table th,
+.contadores-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
